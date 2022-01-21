@@ -144,7 +144,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <h4 style={{marginTop:60,padding:10,fontWeight:"bold"}}>Deschideti harta pentru mai multe indicatii</h4>
-                <a href="https://www.google.com/maps/place/%C8%98oseaua+Dejului,+Gherla/@47.04422827800338, 23.918839538031786,521m/data=!3m1!1e3!4m5!3m4!1s0x4749bdda9a36a4b1:0x791f0ce3d9537eeb!8m2!3d47.0417691!4d23.9151133">
+                <a href="https://www.google.com/maps/place/Komura+San+Service/@47.044342,23.9186265,15z/data=!4m5!3m4!1s0x0:0xf1f3bed6ed3d20e1!8m2!3d47.044342!4d23.9186265">
                     <div ref={mapContainer} className="map-container" />
                 </a>
 

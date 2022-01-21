@@ -139,8 +139,8 @@ const Programari = () => {
                 </div>
                 <h4 style={{marginTop:60,padding:10,fontWeight:"bold"}}>Adresa service</h4>
                 {/* MAP */}
-                <a href="https://www.google.com/maps/place/Gherla+405300/@47.0286405,23.9002418,15z/data=!3m1!4b1!4m5!3m4!1s0x4749bda760ba5ecb:0x12f17b53b89ef0d1!8m2!3d47.0317645!4d23.909253">
-                    <img className="map-image" style={{width:"100%"}} src="https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/static/23.9002418,47.0286405,14/1200x500?access_token=pk.eyJ1IjoiYnVuZWEiLCJhIjoiY2t5MzQ4cnp4MHJxejJ2cXR3Y2J0N2tzMyJ9.gDGo6H621998FDCFfXYUoQ"></img>
+                <a href="https://www.google.com/maps/place/Komura+San+Service/@47.044342,23.9186265,15z/data=!4m5!3m4!1s0x0:0xf1f3bed6ed3d20e1!8m2!3d47.044342!4d23.9186265">
+                    <img className="map-image" style={{width:"100%"}} src="https://api.mapbox.com/styles/v1/mapbox/outdoors-v11/static/geojson(%7B%22type%22%3A%22Point%22%2C%22coordinates%22%3A%5B23.9186265%2C47.044342%5D%7D)/23.9186265,47.044342,13/1000x600?access_token=pk.eyJ1IjoiYnVuZWEiLCJhIjoiY2t4cWhwMmVnMDg3ejJwbzB5MHF4NDZ5MyJ9.kPzqT-YbgEfWP5aLQlZRcA"></img>
                 </a>
 
             </div>
