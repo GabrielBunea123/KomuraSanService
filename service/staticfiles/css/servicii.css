@@ -1,0 +1,39 @@
+.card-img-top-servicii{
+    transition: 0.5s all ease-in-out;
+}
+.card-img-top-servicii:hover{
+    transform: scale(1.2);
+}
+.card-servicii-container{
+    box-shadow: 5px;
+    overflow: hidden;
+    width: 30%;
+    /* margin-top:30px;
+    margin-right:20px; */
+    margin:20px;
+    text-align:center;
+}
+
+@media only screen and (max-width: 1400px){
+    .card-servicii-container{
+        width: 30%;
+        margin-right:2px;
+    }
+}
+@media only screen and (max-width: 790px){
+    .card-servicii-container{
+        width: 40%;
+        margin-right:2px;
+    }
+}
+@media only screen and (max-width: 475px){
+    .card-servicii-container{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 444px){
+    .card-servicii-container{
+        width: 90%;
+        margin:0px;
+    }
+}

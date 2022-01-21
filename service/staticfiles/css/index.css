@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Rammetto+One&display=swap');
+
+body {
+    margin: 0;
+    padding:0;
+    /* font-family: "Butler", sans-serif; */
+    overflow-x:hidden;
+    background-color: white;
+    color:black;
+    zoom: 100%;
+
+    height: 100%;
+
+    position: relative;
+}
+
+.colors{
+    background-color:#a72920;
+    background-color:#383e42;
+    background-color:#e9ecf2;
+    background-color:#798fab;
+    background-color:#7edfe6;
+}
+
+/* under navbar image */
+
+.home-bg-image-container{
+    height:250px;
+    /* background-image:url(../images/bghome.png); */
+    background-color: #e92416;
+    /* filter:brightness(0.5); */
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.home-bg-image-text{
+    color:#383e42;
+    font-family: 'Bebas Neue', cursive;
+    font-size:100px;
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+/* prezentare generala */
+.prezentare-generala-img-container{
+    width:50%;
+    height:auto;
+}
+.prezentare-generala-img-container img{
+    width:100%;
+    border-radius:40px;
+    margin-left:40px;
+}
+.prezentare-generala-text-container{
+    padding-top:30px;
+    padding-right:10px;
+    width:50%;
+    font-size:22px;
+    color:#383e42;
+    font-weight: 200px;
+}
+/* servicii */
+
+.roundedCard{
+    background-color:#e9ecf2;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+    margin:20px;
+    padding-bottom:20px;
+}
+.roundedCard h1{
+    padding-top:40px;
+}
+.roundedCard-text{
+    font-size:18px;
+    font-weight: bold;
+}
+.member-card-container{
+    width:18rem;
+    text-align:center;
+}
+.member-card-container h5{
+    color:#a72920;
+    font-weight: bold;
+}
+
+.member-img{
+    margin-top:40px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border:5px solid #a72920;
+}
+
+/* responsive */
+@media only screen and (max-width: 1400px){
+    .prezentare-generala-text-container{
+        font-size:18px;
+        font-weight: 200px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .home-bg-image-text{
+        /* font-size: 50px; */
+        /* top:10%; */
+    }
+    .prezentare-generala-text-container{
+        font-size:14px;
+        font-weight: 200px;
+    }
+}
+@media only screen and (max-width: 1020px){
+    .home-bg-image-text{
+        font-size: 90px;
+        /* top:8%; */
+    }
+    
+    .prezentare-generala-text-container{
+        padding-top:10px;
+        width:100%;
+        font-size:20px;
+        font-weight: 200px;
+    }
+    .prezentare-generala-img-container{
+        width:100%;
+        padding-top:50px;
+    }
+    .prezentare-generala-img-container img{
+        width:100%;
+        border-radius:40px;
+        margin-left:0px;
+    }
+    .roundedCard{
+        width:150px;
+        height:150px;
+
+    }
+    .roundedCard h1{
+        padding-top:25px;
+    }
+    .roundedCard-text{
+        font-size:15px;
+        font-weight: bold;
+    }
+}
+@media only screen and (max-width: 850px){
+    .home-bg-image-text{
+        font-size: 80px;
+    }
+}
+@media only screen and (max-width: 705px){
+    .home-bg-image-text{
+        top:175px;
+        font-size: 70px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .home-bg-image-container{
+        height:400px;
+    }
+    .home-bg-image-text{
+        font-size: 70px;
+        top:250px;
+    }
+}
+@media only screen and (max-width: 405px){
+    .home-bg-image-text{
+        font-size: 60px;
+    }
+    .roundedCard{
+        width:130px;
+        height:130px;
+        margin:10px;
+
+    }
+    .roundedCard h1{
+        padding-top:15px;
+    }
+    .roundedCard-text{
+        font-size:13px;
+        font-weight: bold;
+    }
+}
+@media only screen and (max-width: 335px){
+    .home-bg-image-text{
+        font-size: 50px;
+    }
+}

@@ -1,0 +1,39 @@
+.card-recommended-products-container{
+    width: 23%;
+    margin-top:30px;
+    /* margin-right:2px; */
+    text-align:center;
+}
+.price-magazin{
+    color:#A72920;
+    font-weight:bold;
+}
+.card-img-top-magazin{
+    /* min-width: 17rem; */
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+}
+@media only screen and (max-width: 1200px){
+    .card-recommended-products-container{
+        width: 20rem;
+        margin-right:2px;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .card-recommended-products-container{
+        width: 20rem;
+        margin-right:2px;
+    }
+}
+@media only screen and (max-width: 770px){
+    .card-recommended-products-container{
+        width: 15rem;
+        margin-right:2px;
+    }
+}
+@media only screen and (max-width: 510px){
+    .card-recommended-products-container{
+        width: 80%;
+    }
+}

@@ -1,0 +1,50 @@
+.reviews-card-top-color{
+    height:10px;
+    /* background-color:aqua; */
+}
+
+.card-reviews-container{
+    box-shadow: 5px;
+    overflow: hidden;
+    width: 23%;
+    margin-top:30px;
+    margin-right:20px;
+    text-align:center;
+}
+.progress{
+    width:70%;
+}
+.average-review-container{
+    padding-top:30px;
+}
+
+@media only screen and (max-width: 1200px){
+    .card-reviews-container{
+        width: 33%;
+        margin-right:2px;
+    }
+}
+@media only screen and (max-width: 790px){
+    .card-reviews-container{
+        width: 48%;
+        margin-right:2px;
+    }
+}
+@media only screen and (max-width: 475px){
+    .progress{
+        width:80%;
+    }
+    .card-reviews-container{
+        width: 13rem;
+    }
+}
+@media only screen and (max-width: 444px){
+    .card-reviews-container{
+        width: 12rem;
+    }
+}
+@media only screen and (max-width: 412px){
+    .card-reviews-container{
+        width: 100%;
+    }
+}
