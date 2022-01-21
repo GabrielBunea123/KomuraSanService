@@ -26,7 +26,7 @@ SECRET_KEY = '9xfe$yy^ygn-olg=ks(evli$f(q2uz4f+^al%&=ld!0*j32j$f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["https://komurasanservice.herokuapp.com/"]
 
 
 # Application definition
