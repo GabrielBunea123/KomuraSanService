@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '9xfe$yy^ygn-olg=ks(evli$f(q2uz4f+^al%&=ld!0*j32j$f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
@@ -144,17 +144,11 @@ EMAIL_USE_TLS = True
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
-AWS_ACCESS_KEY_ID = "AKIAX2Y54V4QN6VSIZ54"
-AWS_SECRET_ACCESS_KEY = "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"
-AWS_STORAGE_BUCKET_NAME = 'komurasanservice'
-AWS_QUERYSTRING_AUTH = False
-AWS_S3_SIGNATURE_VERSION = 's3v4'
-AWS_S3_REGION_NAME = 'us-east-2'
-AWS_S3_FILE_OVERWRITE = False
-AWS_DEFAULT_ACL = None
-AWS_S3_VERIFY = True
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage' 
 
 import django_heroku
 
 django_heroku.settings(locals())
+
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+SECURE_SSL_REDIRECT = True
+

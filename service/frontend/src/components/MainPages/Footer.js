@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="footer-container">
             <div class="spacer">
                 <div className="container">
-                    <div className="d-flex flex-wrap justify-content-between">
+                    <div className="d-flex flex-wrap justify-content-evenly">
                         <div className="mr-auto p-2 align-content-center">
                             <h1 className="footer-title">Komura San Service</h1>
                         </div>
