@@ -163,7 +163,7 @@ const Reviews = () => {
                             <div class="progress" style={{marginTop:7,marginRight:5}}>
                                 <div class="progress-bar bg-warning" role="progressbar" style={{width:`${reviewsPercentage5}%`}} aria-valuenow={`${reviewsPercentage5}`} aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <p style={{marginTop:3}} className="p2">{reviewsPercentage5} %</p>
+                            <p style={{marginTop:3}} className="p2">{reviewsPercentage5}%</p>
                         </div>
 
                         <h5 className="p2">4 stars</h5>
@@ -171,7 +171,7 @@ const Reviews = () => {
                             <div class="progress" style={{marginTop:7,marginRight:5}}>
                                 <div class="progress-bar bg-warning" role="progressbar" style={{width:`${reviewsPercentage4}%`}} aria-valuenow={`${reviewsPercentage4}`} aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <p style={{marginTop:3}} className="p2">{reviewsPercentage4} %</p>
+                            <p style={{marginTop:3}} className="p2">{reviewsPercentage4}%</p>
                         </div>
 
                         <h5 className="p2">3 stars</h5>
@@ -179,7 +179,7 @@ const Reviews = () => {
                             <div class="progress" style={{marginTop:7,marginRight:5}}>
                                 <div class="progress-bar bg-warning" role="progressbar" style={{width:`${reviewsPercentage3}%`}} aria-valuenow={`${reviewsPercentage3}`} aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <p style={{marginTop:3}} className="p2">{reviewsPercentage3} %</p>
+                            <p style={{marginTop:3}} className="p2">{reviewsPercentage3}%</p>
                         </div>
 
                         <h5 className="p2">2 stars</h5>
@@ -187,7 +187,7 @@ const Reviews = () => {
                             <div class="progress" style={{marginTop:7,marginRight:5}}>
                                 <div class="progress-bar bg-warning" role="progressbar" style={{width:`${reviewsPercentage2}%`}} aria-valuenow={`${reviewsPercentage2}`} aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <p style={{marginTop:3}} className="p2">{reviewsPercentage2} %</p>
+                            <p style={{marginTop:3}} className="p2">{reviewsPercentage2}%</p>
                         </div>
 
                         <h5 className="p2">1 star</h5>
@@ -195,7 +195,7 @@ const Reviews = () => {
                             <div class="progress" style={{marginTop:7,marginRight:5}}>
                                 <div class="progress-bar bg-warning" role="progressbar" style={{width:`${reviewsPercentage1}%`}} aria-valuenow={`${reviewsPercentage1}`} aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <p style={{marginTop:3}} className="p2">{reviewsPercentage1} %</p>
+                            <p style={{marginTop:3}} className="p2">{reviewsPercentage1}%</p>
                         </div>
                     </div>
                 </div>
