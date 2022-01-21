@@ -1,0 +1,32 @@
+.footer-container{
+    background-color: #e9ecf2;
+    /* color:black; */
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-height: 180px;
+    height: 240px;
+    width: 100%;
+    margin-top:250px;
+}
+.footer-title{
+    color:#a72920;
+    padding-top:25px;
+    font-weight: bold;
+}
+.footer-nav-item{
+    margin-top:10px;
+    margin-left:10px;
+    color:#383e42;
+    text-decoration: none;
+    font-size:18px;
+}
+.footer-nav-item:hover{
+    color:black;
+}
+@media only screen and (max-width: 1200px){
+    .footer-container{
+        height:auto
+    }
+}
