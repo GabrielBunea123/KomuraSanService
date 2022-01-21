@@ -32,7 +32,7 @@
 }
 @media only screen and (max-width: 475px){
     .progress{
-        width:80%;
+        width:70%;
     }
     .card-reviews-container{
         width: 13rem;
