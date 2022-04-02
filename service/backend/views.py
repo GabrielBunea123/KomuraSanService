@@ -95,11 +95,11 @@ class AppointmentView(APIView):
             # body=f"""     """
                         
             # send_mail(
-                # 'Confirmare plata',
-                # body,
-                # settings.EMAIL_HOST_USER,
-                # [f''],
-                # fail_silently=False,
+            #     'Confirmare plata',
+            #     body,
+            #     settings.EMAIL_HOST_USER,
+            #     [f''],
+            #     fail_silently=False,
             # )
             return Response(AppointmentSerializer(queryset).data,status=status.HTTP_201_CREATED)
         return Response({"Bad request":"Something went wrong"},status=status.HTTP_400_BAD_REQUEST)

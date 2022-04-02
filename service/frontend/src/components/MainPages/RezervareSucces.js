@@ -14,7 +14,7 @@ const RezervareSucces = () => {
                     </Typography>
                 </Grid>
                 <Grid item xs={12} align="center" style={{paddingBottom:150}}>
-                    <a style={{textDecoration:"none"}} href="/"><Button color="primary" variant="contained">Intoarce-te acasa</Button></a>
+                    <a style={{textDecoration:"none"}} href="/"><Button style={{backgroundColor:"#A72920",color:"white"}} color="primary" variant="contained">Intoarce-te acasa</Button></a>
                 </Grid>
             </Grid>
         </div>

@@ -24,6 +24,7 @@ class Review(models.Model):
 class Services(models.Model):
     name=models.CharField(max_length=200)
     description=models.CharField(max_length=30000)
+    icon = models.CharField(max_length=200)
 
 
 
