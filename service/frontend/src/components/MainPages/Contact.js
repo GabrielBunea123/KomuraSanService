@@ -135,7 +135,7 @@ const Contact = () => {
                                 <h3 className="p-2" style={{ paddingTop: 0 }}>
                                     Email
                                     <br></br>
-                                    <h6>email@yahoo.com</h6>
+                                    <h6>komurasanservice@gmail.com</h6>
                                 </h3>
                             </div>
                         </a>
@@ -147,7 +147,7 @@ const Contact = () => {
                                 <h3 className="p-2" style={{ paddingTop: 0 }}>
                                     Adresa
                                     <br></br>
-                                    <h6>Strada x numar 12</h6>
+                                    <h6>Strada Dejului, No. 538B</h6>
                                 </h3>
                             </div>
                         </a>
